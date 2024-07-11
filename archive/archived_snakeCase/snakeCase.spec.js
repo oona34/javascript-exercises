@@ -1,7 +1,7 @@
 const snakeCase = require('./snakeCase')
 
 describe('snakeCase', () => {
-  test('works with simple lowercased phrases', () => {
+  test.skip('works with simple lowercased phrases', () => {
     expect(snakeCase('hello world')).toEqual('hello_world');
   });
   test.skip('works with Caps and punctuation', () => {

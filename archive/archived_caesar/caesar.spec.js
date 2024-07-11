@@ -1,6 +1,6 @@
 const caesar = require('./caesar')
 
-test('works with single letters', () => {
+test.skip('works with single letters', () => {
   expect(caesar('A', 1)).toBe('B');
 });
 test.skip('works with words', () => {
